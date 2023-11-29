@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* background-color: black; */
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, #42275a, #4a2c5d, #51305f, #593562, #5f3b64, #664067, #6d456a, #734b6d);
+    color: aqua;
+  }
+  input {
+    margin: 12px 20px;
+    padding: 6px 12px;
+    background-color:transparent;
+    border-radius: 15px;
+    font-size: larger;
+    border: 3px solid #43275a;
+    box-shadow: #42275a 0px 1px, #593562 0px 3px, #664067 0px 5px, #6d456a 0px 7px, #734b6d 0px 9px;
+  }
+  button {
+    margin: 12px auto;
+    font-size: medium;
+    padding: 6px 12px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: black;
+    border: 3px solid #43275a;
+    box-shadow: #42275a 0px 1px, #593562 0px 3px, #664067 0px 5px, #6d456a 0px 7px, #734b6d 0px 9px;
+    
+  }
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  i {
+    color: #43275a;
+    padding: 5px 5px;
+  }
+  .card-img,img{
+      margin: 5px auto;
+      width: 200px;
+      border-radius: 50%;
+
+
+  }
+  .container{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .main{
+      width: 60vw;
+      min-width: 330px;
+      text-align: center;
+      padding: 35px 15px;
+  }
+  h1{
+      font-size:300%;
+      padding: 10px 10px;
+      color:hwb(273 2% 81%);
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .card{
+      color:whitesmoke;
+      text-align: center;
+      width: 25rem;
+      border:2px solid hwb(273 10% 41%);
+      background:hwb(272 4% 85%);
+      box-shadow: 1px 2px 3px #454545;
+      padding: 10px;
+      margin: 25px;
+      border-radius: 10px;
+      box-shadow: hwb(273 15% 65%) 0px 1px 2px, hwb(273 15% 65%) 0px 2px 4px,hwb(273 15% 65%) 0px 4px 8px, hwb(273 15% 65%) 0px 8px 16px, hwb(273 15% 65%) 0px 16px 32px, hwb(273 15% 65%) 0px 32px 64px;
+  }
+  .card-title{
+      font-size:x-large;
+      font-weight: bold;
+  }
+  .card-subHeading{
+    font-size: medium;
+    color: rgb(87, 87, 87);
+  }
+  #profileInfo .card{
+
+      border: 1px solid hwb(273 15% 65%);
+  }
+  #repoInfo{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+  }
+ 
